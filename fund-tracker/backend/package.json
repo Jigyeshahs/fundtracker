@@ -1,0 +1,17 @@
+{
+  "name": "fundtrace-backend",
+  "version": "1.0.0",
+  "description": "FundTrace — financial fraud & mule account tracking system (demo prototype)",
+  "main": "server.js",
+  "scripts": {
+    "seed": "node scripts/seed.js",
+    "start": "node server.js"
+  },
+  "keywords": ["cybersecurity", "fraud-detection", "mule-account", "fintech"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
